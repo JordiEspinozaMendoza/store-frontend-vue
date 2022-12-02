@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+.products__table {
+    width: 60%;
+    margin: 0 auto;
+}
