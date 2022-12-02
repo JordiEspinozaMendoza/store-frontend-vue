@@ -1,0 +1,23 @@
+.navbar__container {
+    background-color: #ccc;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.navbar__links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar__links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+.navbar__links a:hover {
+    text-decoration: underline;
+}
