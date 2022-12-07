@@ -13,6 +13,7 @@ export default {
       },
     };
   },
+  // methods
   methods: {
     async handleGetProducts() {
       this.getProducts.loading = true;
@@ -29,9 +30,12 @@ export default {
         });
     },
   },
+  // mounted hook
   mounted() {
     this.handleGetProducts();
   },
+  // computed
+  computed: {},
 };
 </script>
 <template>
